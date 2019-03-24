@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Hora emtrada:</strong>
+  <%= @check.hora_emtrada %>
+</p>
+
+<p>
+  <strong>Hora salida:</strong>
+  <%= @check.hora_salida %>
+</p>
+
+<p>
+  <strong>User name:</strong>
+  <%= @check.user_name %>
+</p>
+
+<%= link_to 'Edit', edit_check_path(@check) %> |
+<%= link_to 'Back', checks_path %>
